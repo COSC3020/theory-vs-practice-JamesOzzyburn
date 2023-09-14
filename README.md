@@ -14,3 +14,19 @@
   complexity suggests a different time.
 
 Add your answers to this markdown file.
+
+
+## Answers
+(1a): Since we remove all of the constants when talking about asymptotic analysis we could have something represented as $\Theta(n)$ which is very quick but in reality its $10000000000 * \Theta(n)$ which is painfully slow.
+
+(1b): We also need to consider how fast the hardware takes to do a iteration. For example if we have something that is $1000 * \Theta(n^2)$ and n is $100$ it may seem very very slow but if the hardware its running on does $1000$ iterations per picosecond its completed in $10$ nanoseconds which is arguably a negligable about of runtime.
+
+(1c): This kinda goes off of (1) but since we also get rid of lower order terms our fast looking search could actually turn out to be terribly long.
+
+(2): I think it would take about $50$ seconds as from what I remember a binary tree search is linear so $1000$ elements at $5$ seconds gives us $200$ elements/second. So then $10,000$ elements takes $50$ seconds.
+
+(3a): It could be a constant.
+
+(3b): It could be a lower order term that is now growing big enough to largely affect the results.
+
+(3c): It could have been the case that the inital time measurement got messed up by the OS doing background tasks so this is the "real" time complexity.
