@@ -23,7 +23,7 @@ Add your answers to this markdown file.
 
 (1c): This kinda goes off of (1) but since we also get rid of lower order terms our fast looking search could actually turn out to be terribly long.
 
-(2): I think it would take about $50$ seconds as from what I remember a binary tree search is linear so $1000$ elements at $5$ seconds gives us $200$ elements/second. So then $10,000$ elements takes $50$ seconds.
+(2): I think it would take about $15$ seconds as from what I remember a binary tree search is O(log n) so $1000$ elements at $5$ seconds gives us $200$ elements/second. Then when you take 10,000/1,000 and then put it into log you get three for the ratio so then 5 * 3 is $15$. So then $10,000$ elements takes $15$ seconds.
 
 (3a): It could be a constant.
 
